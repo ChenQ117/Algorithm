@@ -22,6 +22,7 @@ public class MinHeap {
     public void insert(Node E){
         if (isFull()){
             System.out.println("堆已满");
+
             return;
         }
         int i;
